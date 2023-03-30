@@ -36,7 +36,7 @@ console.log(myString.substring(0, 5)); // "Hello"
 console.log(myString.toUpperCase()); // "HELLO, WORLD!"
 
 // 6. Numbers
-const myNumber = 42;
+myNumber = 42;
 
 console.log(myNumber + 1); // 43
 console.log(myNumber - 1); // 41
