@@ -1,17 +1,19 @@
-/*
-========== LESSON 1 - VARIABLES ==========
-Complete the following numbered tasks:
-*/
+// 1. Function statement to double a number
+function doubleNumber(num) {
+return num * 2;
+}
 
-// 1. Declare 2 variables below:
+// 2. Function expression to square a number
+const squareNumber = function(num) {
+return num * num;
+}
 
+// 3. Arrow function to multiply two numbers
+const productNumber = (num1, num2) => {
+return num1 * num2;
+}
 
-// Initialize 3 variables:
-
-    // 2. Assign one to the type Number below:
-
-
-    // 3. Assign one to the type Boolean below:
-    
-
-    // 4. Assign one to the type String below:
+// Example usage
+console.log(doubleNumber(5)); // Output: 10
+console.log(squareNumber(4)); // Output: 16
+console.log(productNumber(2, 3)); // Output: 6
