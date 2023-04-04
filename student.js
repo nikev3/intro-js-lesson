@@ -1,19 +1,24 @@
-// 1. Function statement to double a number
-function doubleNumber(num) {
-return num * 2;
+// 1.
+function sumOfThree(num1, num2, num3) {
+  return num1 + num2 + num3;
 }
 
-// 2. Function expression to square a number
-const squareNumber = function(num) {
-return num * num;
+// 2.
+const productOfThree = function(num1, num2, num3) {
+  return num1 * num2 * num3;
+};
+
+// 3.
+const getRemainder = (num1, num2) => {
+  return num1 % num2;
+};
+
+// 4.
+function getRootRounded(num) {
+  return Math.ceil(Math.sqrt(Math.abs(num)));
 }
 
-// 3. Arrow function to multiply two numbers
-const productNumber = (num1, num2) => {
-return num1 * num2;
+// 5.
+function getRandom() {
+  return Math.floor(Math.random() * 100) + 1;
 }
-
-// Example usage
-console.log(doubleNumber(5)); // Output: 10
-console.log(squareNumber(4)); // Output: 16
-console.log(productNumber(2, 3)); // Output: 6
